@@ -5,12 +5,12 @@ const useStyles = createUseStyles({
     color: ({ theme }) => theme.todayDateFontColor,
   },
   current: {
-    fontSize: 30,
+    fontSize: 25,
     color: ({ theme }) => theme.todayTempFontColor,
   },
   range: {
     color: ({ theme }) => theme.todayRangeFontColor,
-    fontSize: 12,
+    fontSize: 10,
     margin: [0, 0, 5, 2],
   },
   desc: {

@@ -35,7 +35,7 @@ const ReactWeather = ({
             />
           </div>
           <div className={classes.left}>
-            <h2 className={classes.header}>{locationLabel}</h2>
+            <p className={classes.header}>{locationLabel}</p>
             <Today
               current={current}
               unitsLabels={unitsLabels}
