@@ -4,7 +4,7 @@ const useStyles = createUseStyles({
   container: {
     maxWidth: '196px',
     fontFamily: ({ theme }) => theme.fontFamily,
-    fontSize: 13,
+    fontSize: 10,
     boxShadow: ({ theme }) => theme.containerDropShadow,
     borderRadius: '0 0 5px 5px',
   },
