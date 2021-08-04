@@ -5,7 +5,7 @@ const useStyles = createUseStyles({
     color: ({ theme }) => theme.todayDateFontColor,
   },
   current: {
-    fontSize: 45,
+    fontSize: 30,
     color: ({ theme }) => theme.todayTempFontColor,
   },
   range: {

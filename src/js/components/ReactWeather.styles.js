@@ -2,6 +2,7 @@ import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
   container: {
+    maxWidth: '245px',
     fontFamily: ({ theme }) => theme.fontFamily,
     fontSize: 13,
     boxShadow: ({ theme }) => theme.containerDropShadow,
@@ -27,8 +28,8 @@ const useStyles = createUseStyles({
     width: '60%',
   },
   right: {
+    width: '100%',
     backgroundColor: 'rgba(0,0,0,0.1)',
-    width: '40%',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',

@@ -15,8 +15,8 @@ const WeatherIcon = ({ title, path, size, viewBox, color }) => {
     <svg
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      width={size}
-      height={size}
+      width="90"
+      height="90"
       viewBox={viewBox}
       className={classes.svg}
     >
