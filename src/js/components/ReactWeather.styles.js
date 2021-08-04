@@ -2,7 +2,7 @@ import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
   container: {
-    maxWidth: '245px',
+    maxWidth: '196px',
     fontFamily: ({ theme }) => theme.fontFamily,
     fontSize: 13,
     boxShadow: ({ theme }) => theme.containerDropShadow,

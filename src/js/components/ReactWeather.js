@@ -26,6 +26,14 @@ const ReactWeather = ({
     return (
       <div className={classes.container}>
         <div className={classes.main}>
+        <div className={classes.right}>
+            <WeatherIcon
+              path={current.icon}
+              size={120}
+              color={theme.todayIconColor}
+              title={current.description}
+            />
+          </div>
           <div className={classes.left}>
             <h2 className={classes.header}>{locationLabel}</h2>
             <Today
@@ -33,14 +41,6 @@ const ReactWeather = ({
               unitsLabels={unitsLabels}
               lang={lang}
               theme={theme}
-            />
-          </div>
-          <div className={classes.right}>
-            <WeatherIcon
-              path={current.icon}
-              size={120}
-              color={theme.todayIconColor}
-              title={current.description}
             />
           </div>
         </div>
